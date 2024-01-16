@@ -1,4 +1,4 @@
-# 0 equals short, one equals long pulse
+# 0 equals dit, one equals dah
 alphabet_to_morse = {
     "A": "01",
     "B": "1000",
@@ -57,8 +57,8 @@ alphabet_to_morse = {
     "/": "10010",
     "@": "011010",
     "Ñ": "11011",
-    " ": " ",
-    "" : ""
+    " ": ".",
+    "" : "-"
 }
 
 morse_to_alphabet = {v: k for k, v in alphabet_to_morse.items()}
